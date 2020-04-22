@@ -86,6 +86,7 @@ const BasicLayout = props => {
    */
 
   const handleMenuCollapse = payload => {
+    // 测试
     if (dispatch) {
       dispatch({
         type: 'global/changeLayoutCollapsed',
